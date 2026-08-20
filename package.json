@@ -1,0 +1,18 @@
+{
+  "name": "consultbae-assignment",
+  "version": "1.0.0",
+  "description": "This repository will contain the solution for the ConsultBae AI Automation Take-Home Assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "sqlite3": "^6.0.1"
+  }
+}

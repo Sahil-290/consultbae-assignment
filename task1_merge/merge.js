@@ -260,14 +260,10 @@ function start() {
 
 function storedb(list) {
   const dbFile = path.join(__dirname, '..', 'consultbae.db');
-
-  if (fs.existsSync(dbFile)) {
-    fs.unlinkSync(dbFile);
-  }
-
   const db = new sqlite3.Database(dbFile);
 
   db.serialize(() => {
+    db.run(`DROP TABLE IF EXISTS workers`);
     db.run(`
       CREATE TABLE workers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
