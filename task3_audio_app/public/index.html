@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConsultBae Audio Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <!-- Left Panel: Submission Form -->
+    <section class="panel">
+      <h2 class="panel-title">New Audio Submission</h2>
+      
+      <form id="submissionForm">
+        <div class="form-group">
+          <label for="workerName">Worker Full Name</label>
+          <input type="text" id="workerName" placeholder="E.g. Sahil Malhotra" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="workerPhone">Worker Phone Number</label>
+          <input type="tel" id="workerPhone" placeholder="E.g. 9000000143" required>
+        </div>
+        
+        <div class="form-group">
+          <label>Audio Submission Method</label>
+          <div class="tabs">
+            <button type="button" class="tab-btn active" id="tabRecord">Browser Recorder</button>
+            <button type="button" class="tab-btn" id="tabUpload">Upload Audio File</button>
+          </div>
+        </div>
+
+        <!-- Tab 1: Browser Recording -->
+        <div id="contentRecord" class="tab-content">
+          <div class="record-container">
+            <button type="button" id="recordBtn" class="record-btn">Record</button>
+            <div id="recordTimer">00:00</div>
+          </div>
+        </div>
+
+        <!-- Tab 2: File Upload -->
+        <div id="contentUpload" class="tab-content" hidden>
+          <div class="drag-area" id="dragArea">
+            <span class="drag-text">Drag & drop your audio file here, or click to browse</span>
+            <input type="file" id="fileInput" accept="audio/*" style="display: none;">
+          </div>
+          <div class="file-info" id="fileInfo" hidden>
+            <span id="fileName">recording.wav</span>
+            <button type="button" id="removeFileBtn">Remove</button>
+          </div>
+        </div>
+
+        <!-- Audio Playback Preview -->
+        <div class="audio-preview-container" id="audioPreviewContainer" hidden>
+          <div>Playback Preview:</div>
+          <audio id="audioPreview" controls></audio>
+        </div>
+
+        <button type="submit" id="submitBtn" class="submit-btn" disabled>Submit Audio Record</button>
+      </form>
+    </section>
+
+    <!-- Right Panel: Submissions Dashboard -->
+    <section class="panel">
+      <h2 class="panel-title">
+        Submissions Log (<span id="submissionCount">0</span> total)
+      </h2>
+      
+      <div class="submissions-list" id="submissionsList">
+        <div class="empty-state">No audio submissions found. Upload or record audio to get started.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="recorder.js"></script>
+</body>
+</html>

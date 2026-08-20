@@ -1,0 +1,233 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+header {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.panel {
+  border: 1px solid #333;
+  padding: 20px;
+  background-color: #111111;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.panel-title {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #0088cc;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+
+.tab-btn {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.tab-btn.active {
+  background-color: #0088cc;
+  border-color: #0088cc;
+}
+
+.tab-content {
+  padding: 10px 0;
+}
+
+.record-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.record-btn {
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.record-btn.recording {
+  background-color: #ff3333;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 0.7; }
+  to { opacity: 1; }
+}
+
+#recordTimer {
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.visualizer-canvas {
+  border: 1px solid #333;
+  background-color: #222;
+  width: 200px;
+  height: 50px;
+  display: block;
+}
+
+.drag-area {
+  border: 2px dashed #444;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.drag-area:hover {
+  border-color: #0088cc;
+}
+
+.file-info {
+  margin-top: 10px;
+  background-color: #222;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.file-info button {
+  background: none;
+  border: none;
+  color: #ff3333;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+
+.audio-preview-container {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 4px;
+}
+
+.audio-preview-container audio {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn:disabled {
+  background-color: #222;
+  border-color: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.empty-state {
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.submission-item {
+  border: 1px solid #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+}
+
+.submission-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.submission-item p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.submission-item strong {
+  color: #fff;
+}
+
+.toast {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  z-index: 1000;
+}
