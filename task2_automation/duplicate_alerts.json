@@ -1,0 +1,241 @@
+{
+  "timestamp": "2026-08-20T11:26:04.014Z",
+  "summary": {
+    "total_processed": 34,
+    "duplicates_count": 31,
+    "new_profiles_count": 2
+  },
+  "duplicates": [
+    {
+      "name": "Varun Jain",
+      "email": "varun.jain29@example.com",
+      "phone": "9000000263",
+      "id": 18,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Karan Bhatia",
+      "email": "karan.bhatia32@mailtest.example.org",
+      "phone": "9000000211",
+      "id": 14,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Arjun Mishra",
+      "email": "arjun.mishra70@example.com",
+      "phone": "9000000106",
+      "id": 16,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Meera Bhatia",
+      "email": "meera.bhatia52@mailtest.example.org",
+      "phone": "9000000223",
+      "id": 17,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Vikram Saxena",
+      "email": "vikram.saxena60@example.com",
+      "phone": "9000000113",
+      "id": 4,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Rahul Chopra",
+      "email": "rahul.chopra70@example.com",
+      "phone": "9000000137",
+      "id": 32,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Tanvi Gupta",
+      "email": "tanvi.gupta31@example.com",
+      "phone": "9000000254",
+      "id": 1,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Varun Saxena",
+      "email": "varun.saxena21@example.in",
+      "phone": "9000000170",
+      "id": 28,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Sneha Chopra",
+      "email": "sneha.chopra99@example.in",
+      "phone": "9000000162",
+      "id": 21,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Deepak Nair",
+      "email": "deepak.nair44@example.com",
+      "phone": "9000000296",
+      "id": 31,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Gaurav Mehta",
+      "email": "gaurav.mehta79@mailtest.example.org",
+      "phone": "9000000133",
+      "id": 29,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Neha Bhatia",
+      "email": "neha.bhatia60@mailtest.example.org",
+      "phone": "9000000273",
+      "id": 40,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta77@mailtest.example.org",
+      "phone": "9000000131",
+      "id": 19,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Manish Bhatia",
+      "email": "manish.bhatia3@example.com",
+      "phone": "9000000161",
+      "id": 41,
+      "sources": "gig_workers, cbnexus"
+    },
+    {
+      "name": "react, javascript, mysql",
+      "email": "isha.chopra95@mailtest.example.org",
+      "phone": "9000000138",
+      "id": 8,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Divya Chopra",
+      "email": "divya.chopra59@example.in",
+      "phone": "9000000111",
+      "id": 42,
+      "sources": "gig_workers, cbnexus"
+    },
+    {
+      "name": "Tanvi Agarwal",
+      "email": "tanvi.agarwal97@example.in",
+      "phone": "9000000148",
+      "id": 35,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Isha Chopra",
+      "email": "isha.chopra95@mailtest.example.org",
+      "phone": "9000000138",
+      "id": 8,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Pooja Kapoor",
+      "email": "pooja.kapoor62@example.in",
+      "phone": null,
+      "id": 45,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Kavya Verma",
+      "email": "kavya.verma74@mailtest.example.org",
+      "phone": null,
+      "id": 46,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Tanvi Reddy",
+      "email": "tanvi.reddy80@example.com",
+      "phone": null,
+      "id": 47,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Varun Singh",
+      "email": "varun.singh81@example.com",
+      "phone": null,
+      "id": 48,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Tanvi Kapoor",
+      "email": "tanvi.kapoor38@example.com",
+      "phone": null,
+      "id": 49,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Nikhil Nair",
+      "email": "nikhil.nair26@example.in",
+      "phone": null,
+      "id": 50,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Pooja Reddy",
+      "email": "pooja.reddy96@mailtest.example.org",
+      "phone": null,
+      "id": 51,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Tanvi Sharma",
+      "email": "tanvi.sharma56@mailtest.example.org",
+      "phone": null,
+      "id": 52,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Deepak Nair",
+      "email": "deepak.nair57@example.in",
+      "phone": null,
+      "id": 53,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Anjali Agarwal",
+      "email": "anjali.agarwal53@mailtest.example.org",
+      "phone": null,
+      "id": 54,
+      "sources": "gig_workers"
+    },
+    {
+      "name": "Vikram Mehta",
+      "email": "vikram.mehta6@example.com",
+      "phone": "9000000261",
+      "id": 44,
+      "sources": "gig_workers, cbnexus"
+    },
+    {
+      "name": "Isha Kapoor",
+      "email": "isha.kapoor54@example.com",
+      "phone": "9000000295",
+      "id": 37,
+      "sources": "naukri, gig_workers, cbnexus"
+    },
+    {
+      "name": "Karan Chopra",
+      "email": "karan.chopra76@mailtest.example.org",
+      "phone": "9000000245",
+      "id": 43,
+      "sources": "gig_workers, cbnexus"
+    }
+  ],
+  "new_profiles": [
+    {
+      "name": "Varun Singh",
+      "email": "varun.singh856@example.com",
+      "phone": null,
+      "city": null
+    },
+    {
+      "name": "Harsh Tiwari",
+      "email": "harshtiwari89@gmail.com",
+      "phone": null,
+      "city": null
+    }
+  ]
+}
